@@ -1,4 +1,4 @@
-[Benji's digital library!](https://alonintheworld.com/benji-comics/) (copy)
+[Benji's digital library!](https://alonintheworld.com/benji-comics/) (Portfolio)
 
 
 [![Benji comics](./images/front-small.png)](https://alonintheworld.com/benjisite/)
