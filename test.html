@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bilingual Static Site</title>
+  <style>
+    /* Styling for the switcher */
+    .lang-container { position: absolute; top: 20px; right: 20px; }
+    select { padding: 5px; font-size: 16px; cursor: pointer; }
+    
+    /* Example of language-specific styling if needed */
+    html:lang(bg) h1 { color: #009688; }
+  </style>
+</head>
+<body>
+
+  <div class="lang-container">
+    <select id="lang-switcher">
+      <option value="en">English</option>
+      <option value="bg">Български</option>
+    </select>
+  </div>
+
+  <!-- Use data-translate for text, data-translate-placeholder for inputs -->
+  <h1 data-translate="welcome">Welcome</h1>
+  <p data-translate="description">This is my site.</p>
+  <input type="text" data-translate-placeholder="search-placeholder" placeholder="Search...">
+
+  <script>
+    // 1. Your dictionary object
+    const translations = {
+      en: {
+        welcome: "Welcome",
+        description: "This is my site.",
+        "search-placeholder": "Search..."
+      },
+      bg: {
+        welcome: "Добре дошли",
+        description: "Това е моят сайт.",
+        "search-placeholder": "Търсене..."
+      }
+    };
+
+    // 2. Core translation function
+    function setLanguage(lang) {
+      // Translate text content
+      document.querySelectorAll("[data-translate]").forEach(el => {
+        const key = el.getAttribute("data-translate");
+        if (translations[lang]?.[key]) el.textContent = translations[lang][key];
+      });
+
+      // Translate placeholders
+      document.querySelectorAll("[data-translate-placeholder]").forEach(el => {
+        const key = el.getAttribute("data-translate-placeholder");
+        if (translations[lang]?.[key]) el.placeholder = translations[lang][key];
+      });
+
+      // Save preference and update HTML attribute
+      localStorage.setItem("preferred-lang", lang);
+      document.documentElement.lang = lang;
+      document.getElementById("lang-switcher").value = lang;
+    }
+
+    // 3. Browser language detection logic
+    function getInitialLanguage() {
+      const saved = localStorage.getItem("preferred-lang");
+      if (saved) return saved;
+
+      // Check browser settings (e.g., "bg-BG" or "en-US")
+      const browserLang = navigator.language || navigator.userLanguage;
+      return browserLang.startsWith("bg") ? "bg" : "en";
+    }
+
+    // 4. Event Listener for manual changes
+    document.getElementById("lang-switcher").addEventListener("change", (e) => {
+      setLanguage(e.target.value);
+    });
+
+    // 5. Initialize immediately on load
+    const initialLang = getInitialLanguage();
+    setLanguage(initialLang);
+  </script>
+</body>
+</html>
