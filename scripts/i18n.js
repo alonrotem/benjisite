@@ -41,11 +41,11 @@
 
   // 3. Browser language detection logic
   function getInitialLanguage() {
-    const saved = localStorage.getItem("preferred-lang");
-    if (saved) return saved;
+    return  localStorage.getItem("preferred-lang") ?? "bg";
 
-    const browserLang = navigator.language || navigator.userLanguage;
-    return browserLang.startsWith("bg") ? "bg" : "en";
+    /* Too smart, to check the user/browser's language, rather than emposing a default one */
+    //const browserLang = navigator.language || navigator.userLanguage;
+    //return browserLang.startsWith("bg") ? "bg" : "en";
   }
 
   document.addEventListener('click', (event) => {

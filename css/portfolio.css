@@ -30,6 +30,11 @@ body {
 .nav-item {
     cursor: pointer;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-item img {
@@ -349,6 +354,13 @@ footer {
     color: yellow;
     padding: 0px 4px;
     border-radius: 2px;
+  }
+
+  footer a {
+    text-decoration: underline dotted !important;
+  }
+  footer a:hover {
+    text-decoration: underline wavy !important;
   }
 
 

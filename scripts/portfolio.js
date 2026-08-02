@@ -69,8 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    if(hamburger) {
-        hamburger.addEventListener('click', function(){
+    if(toggler && hamburger) {
+        toggler.addEventListener('click', function(){
             hamburger.classList.toggle("is-active");
         });
     }
