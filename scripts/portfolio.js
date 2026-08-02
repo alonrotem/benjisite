@@ -38,4 +38,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Run an initial check after Scrollspy refreshes
     clearNavIfAboveFirstSection();
+
+    const  hamburger = document.getElementById("hamburger-6");
+    const togglers = document.getElementsByClassName("navbar-toggler");
+    const collapsers = document.getElementsByClassName("navbar-collapse");
+    const toggler = (togglers && togglers.length > 0)? togglers[0] : null;
+    const collapser = (collapsers && collapsers.length > 0)? collapsers[0] : null;
+    const navMenu = document.querySelector('.nav-menu');
+    if(hamburger) {
+        hamburger.addEventListener('click', function(){
+            hamburger.classList.toggle("is-active");
+        });
+    }    
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if(toggler){
+                toggler.classList.add("collapsed");
+                toggler.setAttribute("aria-expanded", false);
+            }
+            if(collapser){
+                collapser.classList.remove("show");
+            }
+            if(hamburger){
+                hamburger.classList.remove("is-active");
+            }
+        });
+    });
 });
