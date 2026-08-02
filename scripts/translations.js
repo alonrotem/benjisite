@@ -3,18 +3,10 @@ export const translations = {
     benjis_portfolio: "Benji's Portfolio",
     portfolio_title: "Benji's Digital Portfolio",
     heading_text: 
-      "Benji has been an active content creator since an early age, artistic and versatile, "+
-      "from meticulously drawing comic books, to end-to-end producing short films and running "+
-      "a few YouTube channels, which have become popular among his friends.",
-    visual_naratives: "Visual Narratives",
+      "Benji has been an active content creator from an early age. Artistic and versatile, he continuously masters new skills and tools to expand and refine his work. From patiently hand-drawing detailed comic books, through every stage of filming and editing short films and videos, to managing several YouTube channels, the quality and diversity of his portfolio continue to grow with every new project.",
     comic_books: "Comic books",
     comic_books_description: 
-      "<span class='highlight'>Drawn by hand</span>, with endless patience, Benji's comic books "+
-      "are loved by his friends and anyone who came across them.<br/>They are regularly scanned, "+
-      "printed and binded, and shared among friends. Recently their digital copies are also available "+
-      "online to read and download.<br/>Benjis started working on turning them into "+
-      "<span class='highlight'>narrated YouTube videos</span> too.",
-    island_journey_series: "Island Journey&trade; Series",
+      "Drawn entirely by hand with remarkable patience and dedication, Benji's comic books have been loved by his friends (and many others) for years. They are regularly scanned, printed, and shared, and their digital editions are now also available online to read and download. His artistic technique continues to improve, as do his stories and plots. Benji takes great pride in his distinctive drawing style and his ability to portray a wide range of emotions and perspectives. He is now working on adapting his comic books into narrated YouTube videos and has even organized an online casting call to find voice actors for the project.",
     super_benji_series: "Super-Benji Series",
     watch_trailer: "Watch the trailer!",
     year_age: "{0}, Age {1}",
@@ -23,18 +15,11 @@ export const translations = {
     video_production: "Content Creation",
     youtube_content: "YouTube Content",
     youtube_description: 
-      "As an avid YouTube content creator, Benji creates, records and edits videos on a variety of topics, "+
-      "including gaming and Internet culture.<br/>He uses OBS Studio for screen recording, "+
-      "<span class='highlight'>CapCut</span> for editing and a variety of <span class='highlight'>graphic and online tools</span> "+
-      "to design the thumbnail, add effects, memes, and other elements.",
+      "As a passionate Generation Alpha YouTube content creator, Benji conceptualizes, records, and edits videos from scratch on topics he enjoys, including gaming and internet culture. Despite working with basic equipment, which he is saving up to replace with higher-quality, more professional gear, he continues to create and improve his content. He also provides post-production help for friends who find the complexity of video editing challenging. For this purpose, he uses OBS Studio for screen recording, CapCut for editing, and a variety of graphic and online tools to create thumbnails, add effects, memes, and other creative elements. Naturally, both the content and the visual style have evolved over the years. And so has his voice!",
     cinematography: "Cinematography",
     short_films: "Short Films",
     films_description: 
-      "Benji's films and trailers are edited on <span class='highlight'>CapCut</span> and "+
-      "other <span class='highlight'>creative and graphic tools</span>. "+
-      "He is the creator, screenwriter, director and actor of these projects, engaging his friends every year "+
-      "to participate in acting.<br/>Editing, cutting, stitching adding titles, music soundtrack, titles and "+
-      "captions, sound effects and transitions, visual effects, thumbnail design are all done just by him.",
+      "Benji's films and trailers have become the highlight of the summer for the children he spends his vacation with in the countryside. Year after year, they eagerly return to take on new acting roles in his latest productions. Benji writes the scripts, directs, acts, and, above all, creates the complete finished product using CapCut and other creative and graphic tools. Every aspect of post-production is entirely his own work—from editing, cutting, and assembling footage to adding titles, music, captions and subtitles, sound effects, transitions, visual effects, and designing the thumbnails. The most anticipated moment, however, is the official premiere in the backyard under the stars, followed by everyone's laughter as they realize how much they've all grown since the previous summer.",
     view_more_on_the_channel: "View more on the channel!",
     view_more_on_scratch: "View more on Scratch!",
     artistic_improvisation: "Artistic Improvisation",
@@ -57,10 +42,12 @@ export const translations = {
   bg: {
     benjis_portfolio: "Портфолио на Бенджи", 
     portfolio_title: "Дигиталното портфолио на Бенджи",
-    heading_text: "Бенджи е активен създател на съдържание от ранна възраст, артистичен и универсален, от внимателно рисуване на комикси до цялостно производство на късометражни филми и управление на няколко канала в YouTube, които са станали популярни сред неговите приятели.",
+    heading_text: 
+      "Бенджи е активен създател на съдържание от ранна възраст. Артистичен и универсален, той усвоява умение след умение и програма след програма, за да развива и подобрява продукцията си. От последователното и подробно ръчно рисуване на комикси, през всички етапи по заснемането и монтажа на късометражни филми и видеа, до управлението на няколко канала в YouTube, качеството на неговото разнообразно портфолио тепърва ще нараства.",
     visual_naratives: "Визуални разкази",
     comic_books: "Комикси",
-    comic_books_description: "<span class='highlight'>Рисувани на ръка</span>, с безкрайно търпение, комиксите на Бенджи са обичани от неговите приятели и от всеки, който се е натъкнал на тях.<br/>Редовно се сканират, печатат и подвързват и се споделят сред приятели. Наскоро техните дигитални копия също са достъпни онлайн за четене и изтегляне.<br/>Бенджи започна да работи по превръщането им в <span class='highlight'>разказвани видеоклипове в YouTube</span>.",
+    comic_books_description: 
+      "Рисувани на ръка, с безкрайно търпение и последователност, комиксите на Бенджи са изключително обичани от неговите приятели, и не само, през годините. Те редовно се сканират, печатат и разпространяват. Наскоро техните дигитални копия също са достъпни онлайн за четене и изтегляне. Техниката му видимо се подобрява, историите и сюжетите също, като той много държи на характерния си почерк и таланта да изобразява различни емоции и ракурси. Сега Бенджи започва работа по превръщането на историите в разказвани видеоклипове в YouTube, като за целта дори организира кастинг за озвучаващи артисти онлайн.",
     island_journey_series: "Серия Island Journey&trade;",
     super_benji_series: "Серия Super-Benji",
     watch_trailer: "Гледайте трейлъра!",
@@ -70,18 +57,11 @@ export const translations = {
     video_production: "Дигитално творчество",
     youtube_content: "Съдържание за YouTube",
     youtube_description: 
-      "Като запален създател на съдържание за YouTube, Бенджи създава, записва и обработва видеа на разнообразни теми, "+
-      "включително игри и интернет култура.<br/>Той използва OBS Studio за запис на екрана, "+
-      "<span class='highlight'>CapCut</span> за монтаж и разнообразни <span class='highlight'>графични и онлайн инструменти</span> "+
-      "за създаване на миниатюри, добавяне на ефекти, мемета и други елементи.",
+      "Като запален създател на YouTube съдържание от алфа-поколението, Бенджи замисля, снима и обработва от нулата видеа на любими теми, включително игри и интернет култура. Въпреки базовото оборудване, което събира пари да замени с по-качествено и професионално. Той прави постпродукция и за свои приятели, които не могат да се справят със сложността на монтажа. За целта използва OBS Studio за запис на екрана, CapCut за монтаж и разнообразни графични и онлайн инструменти за създаване на миниатюри, добавяне на ефекти, мемета и други елементи. Съдържанието и визията, разбираемо, се променят с годините. Както и гласът му!",
     cinematography: "Филмово творчество",
     short_films: "Късометражни филми",
     films_description: 
-      "Филмите и трейлърите на Бенджи са монтирани с <span class='highlight'>CapCut</span> и "+
-      "други <span class='highlight'>творчески и графични инструменти</span>. "+
-      "Той е създател, сценарист, режисьор и актьор в тези проекти, като всяка година "+
-      "включва свои приятели в актьорския състав.<br/>Монтажът, изрязването, съединяването на кадри, добавянето на заглавия, музикален съпровод, надписи и "+
-      "субтитри, звукови ефекти и преходи, визуални ефекти и дизайнът на миниатюрите – всичко това е изцяло негово дело.",
+      "Филмите и трейлърите на Бенджи са любимото време за децата, с които прекарва лятната си ваканция на село и които всяка следваща година влизат в ролята на актьори в поредния му филм. Той е сценарист, режисьор, актьор и най-вече създател на цялостния краен продукт, монтиран с CapCut и други творчески и графични инструменти. Монтажът, изрязването, съединяването на кадри, добавянето на заглавия, музикален съпровод, надписи и субтитри, звукови ефекти и преходи, визуални ефекти и дизайнът на миниатюрите – всичко това е изцяло негово дело. А любимият момент е официалната премиера в двора на къщата под звездите! И смехът колко са пораснали от предишния път.",
     view_more_on_the_channel: "Вижте повече в канала!",
     view_more_on_scratch: "Вижте още в Scratch!",
     artistic_improvisation: "Творческа импровизация",
