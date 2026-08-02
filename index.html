@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
   <link rel="manifest" href="./images/favicon/site.webmanifest">
 
-  <title>Benji's Digital Protfolio</title>
+  <title>Benji's Digital Portfolio</title>
 
   <!-- Google Fonts: Playfair Display for Headings, Open Sans for Body 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,7 @@
   <!-- Sticky Top Navigation Menu -->
   <nav id="main-navbar" class="navbar navbar-expand-lg sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Benji's Digital Protfolio</a>
+      <a class="navbar-brand" href="#" data-translate="benjis_portfolio"></a>
       
       <button class="navbar-toggler border-0 navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,23 +36,33 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto gap-1">
           <li class="nav-item">
-            <a class="nav-link" href="#comic-books">Comic books</a>
+            <a class="nav-link" href="#comic-books" data-translate="comic_books"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gaming-videos">YouTube Content</a>
+            <a class="nav-link" href="#gaming-videos" data-translate="youtube_content"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#movies">Movies</a>
+            <a class="nav-link" href="#movies" data-translate="short_films"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#music">Music</a>
+            <a class="nav-link" href="#music" data-translate="music"></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#scratch">Scratch</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#early-works">Early works</a>
+            <a class="nav-link" href="#early-works"  data-translate="early_works"></a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-lang-switch="en" data-hide-on-language="en" style="display: none;">
+              <img src="./images/flag-uk.png" alt="English">
+            </a>
+            <a class="nav-link" data-lang-switch="bg" data-hide-on-language="bg" style="display: none;">
+              <img src="./images/flag-bg.png" alt="Български">
+            </a>
+          </li>         
+
         </ul>
       </div>
     </div>
@@ -61,9 +71,8 @@
   <!-- Hero Header -->
   <header class="hero-section">
     <div class="container">
-      <h1 class="display-4 mb-3">Benji's Digital Protfolio</h1>
-      <p class="lead mx-auto" style="max-width: 600px;">
-        Benji has been an active content creator since an early age, artistic and versatile, from meticulously drawing comic books, to end-to-end producing short films and running a few YouTube channels, which have become popular among his friends.
+      <h1 class="display-4 mb-3" data-translate="portfolio_title"></h1>
+      <p class="lead mx-auto" style="max-width: 600px;" data-translate="heading_text">
       </p>
     </div>
   </header>
@@ -74,19 +83,16 @@
     <section id="comic-books" class="portfolio-section">
       <div class="container">
         <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col col-8">
-            <span class="card-tag">Visual Narratives</span>
-            <h2 class="section-title">Comic books</h2>
-            <p>
-              Drawn by hand, with endless patience, Benji's comic books are loved by his friends and anyone who came across them. <br/>
-              They are regularly scanned, printed and binded, and shared among friends. Recently their digital copies are also available online to read and download.<br/>
-              Benjis started working on turning them into narrated YouTube videos too.
+          <div class="col col-12 col-md-8">
+            <span class="card-tag" data-translate="visual_naratives"></span>
+            <h2 class="section-title" data-translate="comic_books"></h2>
+            <p data-translate="comic_books_description">
             </p>
           </div>
         </div>
 
       <div class="comics-header">
-        <h3>Island Jurney&trade; Series</h3>
+        <h3 data-translate="island_journey_series"></h3>
         <div><img src="./images/island-jurnehy-logo.png"></div>
       </div>
 
@@ -96,9 +102,9 @@
         <a href="./comics/island-jurney/island-jurney-1/index.html">
           <div class="portfolio-card">
               <div class="portfolio-card-image" style="background-image: url('./comics/island-jurney/island-jurney-1/cover.png');">
-                <div class="card-overlay-text">CLICK TO READ!</div>
-                <div class="year-info">2026, age 13</div>
-                <div class="info">61 pages, 700 panels</div>
+                <div class="card-overlay-text" data-translate="click_to_read"></div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2026,13"></div>
+                <div class="info" data-translate="pages_panels" data-translate-params="61,700"></div>
               </div>
               <div class="portfolio-card-description">
                   <div>Island Journey 1</div>
@@ -111,11 +117,11 @@
         <div class="portfolio-card" data-video-id="BzNGvUkCHRc" data-aspect-ratio="4:3">
             <div class="portfolio-card-image" style="background-image: url('./comics/island-jurney/island-jurney-1/trailer-thumb.jpg');">
               <div class="youtube-overlay"></div>
-              <div class="year-info">2026, age 13</div>
+              <div class="year-info" data-translate="year_age" data-translate-params="2026,13"></div>
               <div class="info">00:44</div>
             </div>
             <div class="portfolio-card-description">
-                <div>Watch the trailer!</div>
+                <div data-translate="watch_trailer"></div>
             </div>
         </div>
         <!--/CARD -->
@@ -124,7 +130,7 @@
 
 
       <div class="comics-header">
-        <h3>Super Benji Series</h3>
+        <h3 data-translate="super_benji_series"></h3>
         <div><img src="./images/super-benjil-logo.png"></div>
       </div>
 
@@ -134,12 +140,12 @@
         <a href="./comics/super-benji/super-benji-3/index.html">
           <div class="portfolio-card">
               <div class="portfolio-card-image" style="background-image: url('./comics/super-benji/super-benji-3/pages/001.png');">
-                <div class="card-overlay-text">CLICK TO READ!</div>
-                <div class="year-info">2024, age 11</div>
-                <div class="info">99 pages, 1147 panels</div>
+                <div class="card-overlay-text" data-translate="click_to_read"></div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2024,11"></div>
+                <div class="info" data-translate="pages_panels" data-translate-params="99,1147"></div>
               </div>
               <div class="portfolio-card-description">
-                  <div>Super Benji 3</div>
+                  <div>Super-Benji 3</div>
               </div>
           </div>
         </a>
@@ -149,12 +155,12 @@
         <a href="./comics/super-benji/super-benji-2/index.html">
           <div class="portfolio-card">
               <div class="portfolio-card-image" style="background-image: url('./comics/super-benji/super-benji-2/pages/01.png');">
-                <div class="card-overlay-text">CLICK TO READ!</div>
-                <div class="year-info">2023, age 10</div>
-                <div class="info">54 pages</div>
+                <div class="card-overlay-text" data-translate="click_to_read"></div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2023,10"></div>
+                <div class="info" data-translate="pages" data-translate-params="54"></div>
               </div>
               <div class="portfolio-card-description">
-                  <div>Super Benji 2</div>
+                  <div>Super-Benji 2</div>
               </div>
           </div>
         </a>
@@ -164,12 +170,12 @@
         <a href="./comics/super-benji/super-benji-1/index.html">
           <div class="portfolio-card">
               <div class="portfolio-card-image" style="background-image: url('./comics/super-benji/super-benji-1/pages/01.png');">
-                <div class="card-overlay-text">CLICK TO READ!</div>
-                <div class="year-info">2022, age 9</div>
-                <div class="info">43 pages, 509 panels</div>
+                <div class="card-overlay-text" data-translate="click_to_read"></div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2022,9"></div>
+                <div class="info" data-translate="pages_panels" data-translate-params="43,509"></div>
               </div>
               <div class="portfolio-card-description">
-                  <div>Super Benji 1</div>
+                  <div>Super-Benji 1</div>
               </div>
           </div>
         </a>
@@ -186,33 +192,46 @@
     <section id="gaming-videos" class="portfolio-section">
       <div class="container">
         <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col col-8">
-            <span class="card-tag">Video Production</span>
-            <h2 class="section-title">YouTube Content</h2>
-            <p>As an avid YouTube content creator, Benji creates, records and edits videos on a variety of topics, including gaming and Internet culture.</p>
+          <div class="col col-12 col-md-8">
+            <span class="card-tag" data-translate="video_production"></span>
+            <h2 class="section-title" data-translate="youtube_content"></h2>
+            <p data-translate="youtube_description"></p>
           </div>
         </div>
 
         <div class="porfolio-cards-container">
-          <!-- CARD -->
+          <!-- CARD 
           <div class="portfolio-card" data-video-id="OJ86HwGeXZw" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/announcement.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2026, age 13</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2026,13"></div>
                 <div class="info">00:30</div>
               </div>
               <div class="portfolio-card-description">
                   <div>ANNOUNCMENT</div>
               </div>
           </div>
-          <!--/CARD -->
+          /CARD -->
+
+          <!-- CARD -->
+          <div class="portfolio-card" data-video-id="gbu9DtwGvok" data-aspect-ratio="16:9">
+              <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/fast-food.jpg');">
+                <div class="youtube-overlay"></div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2026,13"></div>
+                <div class="info">05:01</div>
+              </div>
+              <div class="portfolio-card-description">
+                  <div>THE FAST FOOD TIER LIST</div>
+              </div>
+          </div>
+          <!--/CARD -->          
 
           <!-- CARD OK -->
            
           <div class="portfolio-card" data-video-id="WdjIEydmmc8" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/stop-mr-beast.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2026, age 13</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2026,13"></div>
                 <div class="info">05:12</div>
               </div>
               <div class="portfolio-card-description">
@@ -225,7 +244,7 @@
           <div class="portfolio-card" data-video-id="-UieC7JTW_0" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/scariest.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2024, age 11</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2024,11"></div>
                 <div class="info">09:00</div>
               </div>
               <div class="portfolio-card-description">
@@ -238,7 +257,7 @@
           <div class="portfolio-card" data-video-id="_n1TGngi6fU" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/minecraft-sucked.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2025, age 12</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2025,12"></div>
                 <div class="info">06:39</div>
               </div>
               <div class="portfolio-card-description">
@@ -252,7 +271,7 @@
           <div class="portfolio-card" data-video-id="znegzG3gZ7w" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/bedwars.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2022, age 9</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2022,9"></div>
                 <div class="info">18:47</div>
               </div>
               <div class="portfolio-card-description">
@@ -265,7 +284,7 @@
           <div class="portfolio-card" data-video-id="RDnX_Zq7qHA" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/where-ive-been.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2025, age 12</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2025,12"></div>
                 <div class="info">01:11</div>
               </div>
               <div class="portfolio-card-description">
@@ -282,7 +301,7 @@
             <img src="./images/yt-thumbs/kiguy-channel.jpg">
             <div>
               <div class="channel-name">Kiguy</div>
-              <div class="channel-text">View more on the channel!</div>
+              <div class="channel-text" data-translate="view_more_on_the_channel"></div>
             </div>
           </div>
         </div>
@@ -296,12 +315,11 @@
     <section id="movies" class="portfolio-section">
       <div class="container">
         <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col col-8">
-            <span class="card-tag">Cinematography</span>
-            <h2 class="section-title">Movies</h2>
+          <div class="col col-12 col-md-8">
+            <span class="card-tag" data-translate="cinematography"></span>
+            <h2 class="section-title" data-translate="short_films"></h2>
             <p>
-              Benji's movies and trailers are edited on CapCut. He is the creator, screenwriter, director and actor of these projects, engaging his friends every year to participate in acting.<br/>
-              Editing, cutting, stitching adding titles, music, sound effects and transitions are all done by him.
+              <span data-translate="films_description"></span>
             </p>
           </div>
         </div>
@@ -312,7 +330,7 @@
           <div class="portfolio-card" data-video-id="0c3S5eOYKag" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/patron-3-full.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2025, age 12</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2025,12"></div>
                 <div class="info">06:10</div>
               </div>
               <div class="portfolio-card-description">
@@ -325,7 +343,7 @@
           <div class="portfolio-card" data-video-id="T5kW1hqCUn4" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/patron-3-trailer.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2025, age 12</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2025,12"></div>
                 <div class="info">00:31</div>
               </div>
               <div class="portfolio-card-description">
@@ -338,7 +356,7 @@
           <div class="portfolio-card" data-video-id="02hckvoCsSs" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/patron-2-full.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2024, age 11</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2024,11"></div>
                 <div class="info">05:04</div>
               </div>
               <div class="portfolio-card-description">
@@ -351,7 +369,7 @@
           <div class="portfolio-card" data-video-id="s5c1iJNHfIY" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/patron-2-trailer.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2024, age 11</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2024,11"></div>
                 <div class="info">00:50</div>
               </div>
               <div class="portfolio-card-description">
@@ -364,7 +382,7 @@
           <div class="portfolio-card" data-video-id="0qqx1W8xvm8" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/patron-1-full.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2023, age 10</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2023,10"></div>
                 <div class="info">03:55</div>
               </div>
               <div class="portfolio-card-description">
@@ -377,7 +395,7 @@
            <div class="portfolio-card" data-video-id="j6MB0ztV0fs" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/patron-1-trailer.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2023, age 10</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2023,10"></div>
                 <div class="info">0:27</div>
               </div>
               <div class="portfolio-card-description">
@@ -393,7 +411,7 @@
             <img src="./images/yt-thumbs/benji-studios-channel.jpg">
             <div>
               <div class="channel-name">BENJI STUDIOS</div>
-              <div class="channel-text">View more on the channel!</div>
+              <div class="channel-text" data-translate="view_more_on_the_channel"></div>
             </div>
           </div>
         </div>
@@ -407,10 +425,10 @@
     <section id="music" class="portfolio-section">
       <div class="container">
         <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col col-8">
-            <span class="card-tag">Artistic Improvisation</span>
-            <h2 class="section-title">Music</h2>
-            <p>Benji's music was played intuitively on a MIDI Keyboard, recorded, edited and produced on Cakewalk Sonar</p>
+          <div class="col col-12 col-md-8">
+            <span class="card-tag" data-translate="artistic_improvisation"></span>
+            <h2 class="section-title" data-translate="music"></h2>
+            <p data-translate="music_description"></p>
           </div>
         </div>
 
@@ -419,7 +437,7 @@
           <div class="portfolio-card" data-video-id="Jh-KF5jemwg" data-aspect-ratio="4:3">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/saturn.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2026, age 13</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2026,13"></div>
                 <div class="info">01:13</div>
               </div>
               <div class="portfolio-card-description">
@@ -436,10 +454,10 @@
     <section id="scratch" class="portfolio-section">
       <div class="container">
         <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col col-8">
-            <span class="card-tag">Logics</span>
-            <h2 class="section-title">Scratch Programming</h2>
-            <p>The <strong>Fly Machine</strong> game was made and presented on the Softuniada TEENS competition in 2024 (age 11), and was very praised by the judges.</p>
+          <div class="col col-12 col-md-8">
+            <span class="card-tag" data-translate="logics"></span>
+            <h2 class="section-title" data-translate="scratch_programming"></h2>
+            <p data-translate="fly_machine_description"></p>
           </div>
         </div>
 
@@ -459,7 +477,7 @@
             <img src="./images/yt-thumbs/scratch-channel.png">
             <div>
               <div class="channel-name">benjitalks</div>
-              <div class="channel-text">See more on Scratch!</div>
+              <div class="channel-text" data-translate="view_more_on_scratch"></div>
             </div>
           </div>
         </div>
@@ -473,10 +491,10 @@
       <div class="container">
 
         <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col col-8">
-            <span class="card-tag">Early Works</span>
-            <h2 class="section-title">Early works</h2>
-            <p>Benji was eager on making content and going on YouTube since an early age. This channel is from 2020, when he was just 7 years old.</p>
+          <div class="col col-12 col-md-8">
+            <span class="card-tag" data-translate="early_works"></span>
+            <h2 class="section-title" data-translate="early_works"></h2>
+            <p data-translate="early_works_description"></p>
           </div>
         </div>
 
@@ -486,7 +504,7 @@
            <div class="portfolio-card" data-video-id="dkOPDfsS5pU" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/elmar-1.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2020, age 7</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2020,7"></div>
                 <div class="info">02:06</div>
               </div>
               <div class="portfolio-card-description">
@@ -499,7 +517,7 @@
            <div class="portfolio-card" data-video-id="q-pMN3O_XV8" data-aspect-ratio="16:9">
               <div class="portfolio-card-image" style="background-image: url('./images/yt-thumbs/elmar-2.jpg');">
                 <div class="youtube-overlay"></div>
-                <div class="year-info">2020, age 7</div>
+                <div class="year-info" data-translate="year_age" data-translate-params="2020,7"></div>
                 <div class="info">01:45</div>
               </div>
               <div class="portfolio-card-description">
@@ -515,7 +533,7 @@
             <img src="./images/yt-thumbs/benji-talks-channel.jpg">
             <div>
               <div class="channel-name">Benji Talks</div>
-              <div class="channel-text">View more on the channel!</div>
+              <div class="channel-text" data-translate="view_more_on_the_channel"></div>
             </div>
           </div>
         </div>
@@ -534,7 +552,7 @@
   <!-- Footer -->
   <footer class="text-center">
     <div class="container">
-      <p class="mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Benji's Digital Protfolio. All rights reserved.</p>
+      <p class="mb-0">&copy; <script>document.write(new Date().getFullYear())</script> <span data-translate="rights_reserved"></span></p>
     </div>
   </footer>
 
@@ -542,5 +560,6 @@
 
   <script src="./scripts/portfolio.js"></script>
   <script src="./scripts/youtube-modal.js"></script>
+  <script src="./scripts/i18n.js" type="module"></script>
 </body>
 </html>

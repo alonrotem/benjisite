@@ -107,7 +107,7 @@ function bindVideoModal(triggerElement, videoId, aspectRatio = '16:9') {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('[data-video-id]').forEach(button => {
-        console.log(`Binding video modal for button with video ID: ${button.dataset.videoId}`);
+        //console.log(`Binding video modal for button with video ID: ${button.dataset.videoId}`);
         button.addEventListener('click', (e) => {
             e.preventDefault();
             const videoId = button.dataset.videoId;

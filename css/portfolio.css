@@ -27,6 +27,15 @@ body {
     line-height: 1.6;
 }
 
+.nav-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-item img {
+    width: 30px;
+}
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(65, 58, 54, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
@@ -233,6 +242,7 @@ footer {
 
   .card-overlay-text {
     display: none;
+    text-align: center;
   }
 
   .portfolio-card:hover .card-overlay-text {
@@ -332,4 +342,11 @@ footer {
   .channel-text {
     font-size: 14px;
     color: #555;
+  }
+
+  .highlight {
+    background-color: #3d3a36;
+    color: yellow;
+    padding: 0px 4px;
+    border-radius: 2px;
   }
