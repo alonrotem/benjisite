@@ -20,7 +20,7 @@ export const translations = {
     watch_trailer: "Watch the trailer!",
     year_age: "{0}, Age {1}",
     pages_panels: "{0} pages, {1} panels",
-    pages: "{0}pages",
+    pages: "{0} pages",
     video_production: "Content Creation",
     youtube_content: "YouTube Content",
     youtube_description: 
